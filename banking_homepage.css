@@ -1,0 +1,120 @@
+body{
+    background-image: url("background2_img.jpg");
+    background-size: cover;
+}
+
+.heading{
+    color: rgba(241, 85, 85, 0.932);
+    border: 5 5 5 5;
+    background-color: rgba(169, 200, 230, 0.637);
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bolder;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px rgba(112, 128, 144, 0.856);
+}
+
+.nav{
+    margin-left: 160px;
+}
+
+
+
+.nav button{
+    width: 10%;
+    transition: transform 0.2s;
+}
+
+.nav button:hover{
+    background-color: rgb(28, 221, 247);
+    color: rgb(255, 67, 20);
+    transform: scale(1.2);
+}
+
+.nav button{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px slategray;
+    height: 40px;
+    width: 150px;
+    margin-left: 45px;
+    padding: 14px 28px;
+        cursor: pointer; 
+        background-color: #e99d2be8;
+}
+.nav a{
+    font-size: medium;
+}
+
+
+.view_customers{
+    margin-left: 150px;
+    border: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.send_money{
+    margin-left: 150px;
+    border: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.account_balance{
+    margin-left: 150px;
+    border: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.three_box img{
+    box-shadow: 4px 4px 4px 4px slategray;
+    transition: transform 0.2s;
+}
+
+.three_box img:hover{
+    transform: scale(1.2);
+}
+footer{
+    margin-left: 600px;
+}
+
+.about_us{
+    margin-left: 450px;
+}
+.contact_us{
+    margin-left: 530px;
+    margin-top: 20px;
+    font-size: large;
+    font-style: italic;
+}
+.inquiry{
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    height: 380px;
+    width: 700px;
+    margin-left: 300px;
+    margin-top: 40px;
+    font-size: large;
+    font-style: italic;
+    padding-left: 300px;
+    padding-top: 40px;
+}
+
+.container{
+    text-align: center;
+}
+.row .col{
+    text-align: center;
+}
